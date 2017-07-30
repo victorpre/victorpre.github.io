@@ -19,6 +19,9 @@ body {
 	z-index: 9;
 	margin-top: -120px;
 	margin-bottom:50px;
+  width: auto;
+  position: relative;
+  display: inline-block;
 }
 img.responsive-img {
 	max-width: 100%;
