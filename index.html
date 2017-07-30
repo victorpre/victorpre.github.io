@@ -5,24 +5,34 @@
   <title>Victor Presumido</title>
 
   <!-- CSS  -->
-  <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
   <link href="assets/css/flaticon.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-
-    <nav class="main-nav z-depth-3 light-blue darken-4">
-      <ul id="slide-out" class="side-nav">
-        <li><a id="a-about" href="#about-me">About me</a></li>
-        <li><a id="a-contact" href="#contact-me">Contact me</a></li>
-        <li><a id="a-work" href="#work">Work Experience</a></li>
-        <li><a id="a-education" href="#education">Education</a></li>
-        <li><a id="a-resume" href="/resume.pdf">Resume</a></li>
-      </ul>
-      <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="mdi-navigation-menu"></i></a>
-    </nav>
-
-  <header id="top-bar" class="main-top"></header>
+	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper main-nav z-depth-3 light-blue darken-4">
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a id="a-about" href="#about-me">About me</a></li>
+					<li><a id="a-contact" href="#contact-me">Contact me</a></li>
+					<li><a id="a-work" href="#work">Work Experience</a></li>
+					<li><a id="a-education" href="#education">Education</a></li>
+					<li><a id="a-resume" href="/resume.pdf">Resume</a></li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
+					<li><a id="a-about" href="#about-me">About me</a></li>
+					<li><a id="a-contact" href="#contact-me">Contact me</a></li>
+					<li><a id="a-work" href="#work">Work Experience</a></li>
+					<li><a id="a-education" href="#education">Education</a></li>
+					<li><a id="a-resume" href="/resume.pdf">Resume</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<header id="top-bar" class="main-top"></header>
 
     <div class="container container-main">
       <div class="section content">
@@ -204,7 +214,8 @@
 
   <!--  Scripts-->
   <script src="assets/js/jquery-2.1.1.min.js"></script>
-  <script src="assets/js/materialize.js"></script>
+<script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
   <script src="assets/js/slider.js"></script>
   <script src="assets/js/hammer.min.js"></script>
   <script src="assets/js/cards.js"></script>
